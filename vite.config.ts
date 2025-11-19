@@ -23,7 +23,7 @@ export default defineConfig({
     // Add headers to fix CORS issues with iframe embedding
     headers: {
       'Cross-Origin-Resource-Policy': 'cross-origin',
-      'Cross-Origin-Embedder-Policy': 'unsafe-none',
+      'Cross-Origin-Embedder-Policy': 'credentialless',
     },
   },
 });
