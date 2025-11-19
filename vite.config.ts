@@ -24,7 +24,6 @@ export default defineConfig({
     headers: {
       'Cross-Origin-Resource-Policy': 'cross-origin',
       'Cross-Origin-Embedder-Policy': 'unsafe-none',
-      'X-Frame-Options': 'ALLOWALL',
     },
   },
 });
